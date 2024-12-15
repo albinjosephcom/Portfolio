@@ -18,7 +18,23 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-400 mt-2 block"
         >
-          albinjoseph
+          Albin Joseph
+        </a>
+      </motion.div>
+
+
+      <motion.div
+        variants={slideIn("left", "tween", 0.2, 1)}
+        className="flex-[0.75] bg-transparent p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
+      >
+        <h3 className="text-white text-lg font-semibold">Landing Page</h3>
+        <a
+          href="https://space-theme-landing-page.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-blue-400 mt-2 block"
+        >
+          Landing Page
         </a>
       </motion.div>
 
